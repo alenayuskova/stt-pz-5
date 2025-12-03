@@ -13,7 +13,8 @@ describe('Calculator Functionality Tests', () => {
     cy.clearLocalStorage();
   });
 
-  // --- ТЕСТИ НА ОБЧИСЛЕННЯ ---
+
+  //U --- ТЕСТИ НА ОБЧИСЛЕННЯ ---
 
   it('перевіряє введення виразу 2+9-6', () => {
     cy.get('[data-test="btn-2"]').click();
